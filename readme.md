@@ -9,4 +9,4 @@ In this project, I have learnt the Flex property, which is a powerful tool in CS
 
 # Screenshot
 
-![Screenshot](https://github.com/user-attachments/assets/cf6bdbee-beaf-4c6e-9516-af13057df4ca)
+![image](Screenshot.png)
