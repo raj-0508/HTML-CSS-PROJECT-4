@@ -18,8 +18,6 @@ body{
 
 .container{
   background: rgba(0, 21, 49, 0.7);
-  height: 100%;
-  width: 100%;
 }
 
 .navbar{
@@ -28,13 +26,19 @@ body{
   align-items: center;
   padding-top: 3rem;
   font-weight: 400;
+  gap: 3rem;
+}
+
+
+.navbar img{
+  height: 45px;
 }
 
 .list{
   display: flex;
   align-items: center;
   font-size: 1.3rem;
-  gap: 4rem;
+  gap: 3rem;
 }
 
   
@@ -46,7 +50,7 @@ body{
 
       
 .button-small{
-  padding: 1rem 3rem;
+  padding: .8rem 2.4rem;
   background-color: rgba(255, 0, 0, 0.837);
   color: rgb(255, 255, 255);
   font-size:1.25rem;
@@ -69,20 +73,20 @@ body{
 
 .hero-heading{
   margin-top: 7rem;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 900;
   text-align: center;
   color: #f8b020;
-  width: 108vh;
-  line-height: 7rem;
+  width: 110vh;
+  line-height: 6rem;
 }
 
 .button-large{
-  padding: 1rem 3rem;
+  padding: .8rem 2.4rem;
   background-color: rgba(255, 0, 0, 0.837);
   color: rgb(255, 255, 255);
-  font-size:1.9rem;
-  font-weight: 700;
+  font-size:1.7rem;
+  font-weight: 600;
   border: none;
   margin-top: 5rem;
 }
@@ -91,4 +95,9 @@ body{
 .bottom{
   align-self: flex-end;
   padding: 1.5rem 2rem;
+  height: 100%;
+}
+
+.bottom img{
+  height: 150px;
 }
